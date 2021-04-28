@@ -1,4 +1,4 @@
-Nazwa pakietu: konwerter
+# Nazwa pakietu: konwerter
 
 Pakiet pozwala na zamienienie odleglosci podanej w milach na kilometry.
 Może przydac się nam podczas pobytu w krajach anglosaskich.
@@ -11,9 +11,12 @@ Jak zainstalować pakiet?
 3. Wpisz komende install.packages(Konwerter)
 4. Po zainstalowaniu pakiet powinien byc gotowy do uzycia.
 
-
 Przyklad uzycia:
 
-  mil_na_km(10)
+```r
+mil_na_km(10)
+```
 
-  mil_na_km= 16
+```r
+mil_na_km(16)
+```
